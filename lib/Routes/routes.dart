@@ -6,7 +6,8 @@ class AppRoutes{
  static const String examplescreen = "/example";
  static const String loginapi = "/loginapi";
  static const String premieretable = "/premieretable";
-  
+ static const String payment = "/payment";
+  static const String midtrans = "/midtrans";
 
   
  //other here
