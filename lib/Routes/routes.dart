@@ -8,6 +8,7 @@ class AppRoutes{
  static const String premieretable = "/premieretable";
  static const String payment = "/payment";
   static const String midtrans = "/midtrans";
+  static const String testing = "/testing";
 
   
  //other here

@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -12,7 +13,6 @@ import 'package:latihan2_11pplg1/Latihan PAS/Controller/favorite_controller.dart
 // import 'package:firebase_core/firebase_core.dart';
 // import 'package:latihan2_11pplg1/home_screen.dart';
 
-import 'package:latihan2_11pplg1/Latihan PAS/Routes/app_pages.dart';
 import 'package:latihan2_11pplg1/Routes/pages.dart';
 import 'package:latihan2_11pplg1/Routes/routes.dart';
 
@@ -24,7 +24,7 @@ void main() async {
   Get.put(CatController(), permanent: true);
   Get.put(FavoriteController(), permanent: true);
 
-  // await Firebase.initializeApp();
+  await Firebase.initializeApp();
   // Get.put(NotificationController());
   // Get.put(LoginApiController());
 
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
       ),
 
       // ✅ LANGSUNG MASUK PAYMENT (UNTUK TEST)
-      initialRoute: AppRoutes.payment,
+      initialRoute: AppRoutes.testing,
 
       // ✅ ROUTES GETX
       getPages: AppPagess.pages,

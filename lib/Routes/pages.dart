@@ -14,6 +14,7 @@ import 'package:latihan2_11pplg1/Pages/login_page.dart';
 import 'package:latihan2_11pplg1/Pages/payment/midtrans_page.dart';
 import 'package:latihan2_11pplg1/Pages/payment/payment_page.dart';
 import 'package:latihan2_11pplg1/Pages/premiere_tabel.dart';
+import 'package:latihan2_11pplg1/Pages/saqu/addSaqu_page.dart';
 import 'package:latihan2_11pplg1/Pages/splash_screen.dart';
 import 'package:latihan2_11pplg1/Routes/routes.dart';
 
@@ -34,6 +35,7 @@ class AppPagess {
     snapToken: 'SNAP_TOKEN_CONTOH',
   ),
 ),
+   GetPage(name: AppRoutes.testing, page: () => AddsaquPage()),
     // add other collection
   ];
 }
