@@ -17,7 +17,7 @@ class AppPages {
   static const favorite = '/favorite';
   static const product = '/product';
 
-  static final routes = [
+  static final qroutes = [
     GetPage(name: splash, page: () => SplashscreenPage()),
     GetPage(name: login, page: () => LoginPage1()),
     GetPage(name: home, page: () => MainNavPage()),
@@ -25,6 +25,5 @@ class AppPages {
     GetPage(name: detail, page: () => CatDetailPage()),
     // GetPage(name: favorite, page: () => FavoritePage()),
     GetPage(name: product, page: () => CardProduct()),
-    
   ];
 }

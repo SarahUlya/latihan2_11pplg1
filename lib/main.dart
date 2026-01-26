@@ -10,16 +10,17 @@ import 'package:latihan2_11pplg1/Latihan%20PAS/Controller/favorite_controller.da
 // import 'package:firebase_core/firebase_core.dart';
 // import 'package:latihan2_11pplg1/home_screen.dart';
 import 'package:latihan2_11pplg1/Latihan PAS/Routes/app_pages.dart';
+import 'package:latihan2_11pplg1/Routes/pages.dart';
+import 'package:latihan2_11pplg1/Routes/routes.dart';
 
 void main() async {
-
-  WidgetsFlutterBinding.ensureInitialized(); //untuk app cat
+  // WidgetsFlutterBinding.ensureInitialized(); //untuk app cat
   // SharedPreferences prefs = await SharedPreferences.getInstance();
   // bool isLoggedIn = prefs.getBool('isLogged') ?? false;
 
-  Get.put(AuthController());  
-  Get.put(CatController()); 
-  Get.put(FavoriteController()); 
+  // Get.put(AuthController());
+  // Get.put(CatController());
+  // Get.put(FavoriteController());
 
   runApp(MyApp());
 
@@ -29,8 +30,6 @@ void main() async {
 
   // runApp(const MyApp());
 }
-
-
 
 class MyApp extends StatelessWidget {
   // final bool isLoggedIn;
@@ -49,10 +48,9 @@ class MyApp extends StatelessWidget {
       // ),
       // initialRoute: AppRoutes.loginapi,
       // getPages : AppPages.pages,
-
       title: 'CatApi App',
-      initialRoute: AppPages.product ,
-      getPages: AppPages.routes,
+      initialRoute: AppRoutes.sqsplash,
+      getPages: AppPagess.pages,
     );
   }
 }
