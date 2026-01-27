@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "373845973561",
+    "project_id": "pushnotivication-cd76a",
+    "storage_bucket": "pushnotivication-cd76a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373845973561:android:a25c019dcdfa14c9cd8be8",
+        "android_client_info": {
+          "package_name": "com.example.latihan2_11pplg1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_aa2BdeaEHvWS1eZA0rApgEzdxr4yI3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
