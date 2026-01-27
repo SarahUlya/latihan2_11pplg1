@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
       ),
 
       // ✅ LANGSUNG MASUK PAYMENT (UNTUK TEST)
-      initialRoute: AppRoutes.testing,
+      initialRoute: AppRoutes.payment,
 
       // ✅ ROUTES GETX
       getPages: AppPagess.pages,
